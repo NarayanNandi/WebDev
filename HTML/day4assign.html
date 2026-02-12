@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--this is the format of including css in html file create a style tag and ......-->
+    <style>
+        form{
+            background-color:rgb(148, 148, 226);
+        }
+        h2{
+            color:blue;
+        }
+        button{
+            color:red;
+            background-color:cadetblue;
+        }
+    </style>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="/abcd">
+        <h2>Registration Form</h2>
+        <div>
+            <label for="fname"></label>
+            <input type="text" placeholder="First Name" id="fname" name="Firstname" /> 
+            <label for="lname"></label>
+            <input type="text" placeholder="Last Name" id="lname" name="Lastname" />  
+        </div>
+        <div>
+            <label for="gender">Please select your gender</label>
+            <select id="gender" name="Gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+        <div>
+            <label for="agreement">Do you agree to all terms of services? </label>
+            <input type="checkbox" id="agreement" name="agree"/>
+            <label>Yes, I agree</label>
+        </div>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>

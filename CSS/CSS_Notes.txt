@@ -1,0 +1,50 @@
+#CSS
+
+inline:in specific html tag where you want to apply.//<h1 style="color: blue;">Registration From</h1>
+
+including:in head in style tag.<head>
+				   <style>
+					h1{color: black;
+					   background-color: white;
+					  }
+				   </style>
+			       </head>
+
+external stylesheet: <link rel="stylesheet" href="file name or directory path"/> in head tag.
+
+
+color: blue;//
+
+color: rgb(0,255,255); //rgb value for each colour (0-255)/(Hex values-->0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f) , combination of two hex values for one colour among rgb. Ex: color: #00ff00; or color: #ffa100; ***A '#' symbol is necessary if we writing colour in hex code.
+
+background-color: black;//
+
+text-align: center;// left, right, center, justify, start, end.
+***justify used to touch paragraph words to border and give the paragraph a square or rectangular shape.
+
+font-weight: normal;//can be solid, bold, bolder, lighter or values between (100-900), normal(400), solid(700), 900 etc.
+
+text-decoration: underline;// 1.(underline, overline, line-through), 2.(blue underline, red overline, blue line-through, etc. combinations), 3.(solid, double, dotted, dashed, wavy) == combination of all 3 like--> //text-decoration: dotted blue underline; 
+	*** text-decoration: none; // to remove underline from anchor tag. Ex: a{
+										 text-decoration: none;
+										 }// underline from all anchor tag will be removed 
+											
+line-height: normal; // space between two lines
+
+line-height:2.5;// we can make it as our need like normal,0.5,3,5,10 etc.    Example: 1. ABC		2. Abc
+										         ABC		       
+
+
+													   Abc
+
+letter-spacing: 5px;//Ex: normal,7px,10px,2px,etc. output: s  p  a  c  i  n  g 
+
+
+font-size: 15px;// (96px=1inch) we can give different pixel value as our need but pixel is an absolute unit in case of responsive websites (like-Amazon) we can't use px we have to use relative units instead of absolute units because different device like mobile, laptop, tab size differs but font pixel becomes fixed size.
+
+
+
+
+
+
+

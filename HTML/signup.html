@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="D:\Web Developement\CSS\signup.css"/>
+        <title>SignUp to Facebook</title>
+    </head>
+    <body>
+        <div>
+            <form action="/abc">
+                <h2>Sign Up for Facebook</h2>
+            <div>
+                <label for="firstname"></label>
+                <input type="text" placeholder="First Name" id="firstname" name="name"/>
+                <label for="lastname"></label>
+                <input type="text" placeholder="Last Name" id="lastname" name="title"/>
+            </div>
+            <br>
+            <div>
+                <p>Select Your Gender</p>
+                <label for="gender">Male</label>
+                <input type="radio" id="gender" name="Gender" value="male"/>
+                
+                <label for="gender">Female</label>
+                <input type="radio" id="gender" name="Gender" value="female"/>
+                
+                <label for="gender">Others</label>
+                <input type="radio" id="gender" name="Gender" value="others"/>
+            </div>
+            <br>
+            <div>
+                <label for="dob"></label>
+                <input type="number" placeholder="Date of Birth(DD/MM/YYYY)" id="dob" name="date of birth"/>
+            </div>
+            <br>
+            <div>
+                <label for="Email"></label>
+                <input type="email" placeholder="E-Mail" id="Email" name="e-mail"/>
+                <label for="MOB"></label>
+                <input type="tel" placeholder="Mobile Number" id="MOB" name="contact no."/>
+            </div>
+            <br>
+            <div>
+                <!--to make an option selected by default all time write selected in the specific option after value-->
+                <label for="nation">Select your nationality:</label>
+                <br>
+                <select id="nation" name="nationality">
+                    <option value="">--please choose an option--</option>
+                    <option value="american">American</option2>
+                    <option value="ind">Indian</option1>
+                    <option value="russia">Russian</option>
+                    <option value="Korea">Korean</option>
+                    <option value="Japanese">Japanese</option>
+                    <option value="china">Chinese</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <p>Create Password</p>
+                <input type="password" placeholder="Type Password"/>
+                <input type="password" placeholder="Re-type Password"/>
+            </div>
+            <br>
+            <div>
+                <!--in case of check box if it is checked then in url after submitting it will show the id of checkbox is=on else nothing-->
+                <input type="checkbox" id="age" name="age"/>
+                <label for="age">Are you 16+</label>
+                <button type="submit">Submit</button>
+                <label for="vol">Select Volume level:</label>
+                <input type="range" id="vol" name="volume" min="0" max="100" step="1"/>
+            </div>
+            <br>
+            <div>
+                <!-- There are mainly three types of button are there in html.1.Submit, 2.Reset, 3.button(do something)  *
+                 if no type is declared then it is by default submit type-->
+                <button type="reset">Reset</button>
+            </div>
+            <br>
+            <div>
+                <p>Already have an Account</p>
+                <button>Login</button>
+            </div>
+            <br>
+            <div>
+                <label for="feedback">Having Trouble Write to Us:</label>
+                <br>
+                <textarea placeholder="Write in 150 words" id="feedback" name="feedback" rows="3" cols="25"></textarea>
+            </div>
+        </form>
+       </div>
+    </body>
+</html>
