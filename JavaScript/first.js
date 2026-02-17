@@ -1,1 +1,17 @@
 console.log("It's My first Java Script Code");
+name="Narayan Nandi";
+age=22;
+isEnrolled=true;
+course_enrolled="Pintership Cohort-3";
+Batch_Name="Kruskalian";
+completion_percent=100;
+sp_datatype=null;
+sp_datatype1=undefined;
+console.log(name);
+console.log(age);
+console.log(isEnrolled);
+console.log(course_enrolled);
+console.log(Batch_Name);
+console.log(completion_percent);
+console.log(sp_datatype);
+console.log(sp_datatype1);
